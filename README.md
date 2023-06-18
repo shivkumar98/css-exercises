@@ -48,5 +48,33 @@ div {
 
 * I create the link to the CSS file in the HTML!
 
-* I then write some internal CSS within the HTML file:
+* This generates the following output:
 
+![](2023-06-18-20-16-12.png)
+
+
+* I then add an internal CSS rule for the `p` element:
+
+```css
+<style>
+    p {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    }
+</style>
+```
+
+* This generates the following output:
+
+![](2023-06-18-20-18-14.png)
+
+* I apply inline style to the button element:
+
+```html
+<button style="background-color: orange; font-size: 18px;">Inline Method</button>
+```
+
+* This generates the following output:
+
+![](2023-06-18-20-19-55.png)
