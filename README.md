@@ -80,3 +80,20 @@ div {
 ![](2023-06-18-20-19-55.png)
 
 ### 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
+
+#### 📜 Instructions 📜
+
+* There are several elements in the [HTML file](/foundations-solutions/02-class-id-selectors/index.html), which I will add either class/id attributes as noted in outcome image below:
+
+![](/foundations-solutions/02-class-id-selectors/desired-outcome.png).
+
+* The properties which I need to add to each element are:
+
+1) All odd numbered elements: a light red/pink background, a list of fonts containing `Verdana`, `DejaVu Sans` with `sans-serif` as a fallback
+
+2) The second element: blue text and a font-size of 36px
+
+3) The third elemenent: in addition to first property, add a font-size of 24px
+
+4) The fourth element: a light green background, font-size 24px and bold
+
