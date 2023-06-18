@@ -78,3 +78,5 @@ div {
 * This generates the following output:
 
 ![](2023-06-18-20-19-55.png)
+
+### 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
