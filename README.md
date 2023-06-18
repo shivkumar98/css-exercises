@@ -140,3 +140,87 @@ p {
 * This generates the following output:
 
 ![](2023-06-18-20-42-36.png)
+
+* I add an ID to "Number 2":
+
+```html
+ <body>
+    <p>Number 1 - I'm a class!</p>
+    <div id="blue">Number 2 - I'm one ID.</div> <!-- HERE -->
+    <p class="odd">Number 3 - I'm a class, but cooler!</p>
+    <div>Number 4 - I'm another ID.</div>
+    <p>Number 5 - I'm a class!</p>
+  </body>
+```
+
+* And define the following CSS:
+
+```css
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+```
+
+* This generates the following output:
+
+![](2023-06-18-20-52-44.png)
+
+* I add an ID to "Number 4":
+
+```html
+  <body>
+    <p>Number 1 - I'm a class!</p>
+    <div id="blue">Number 2 - I'm one ID.</div>
+    <p class="odd">Number 3 - I'm a class, but cooler!</p>
+    <div id="green">Number 4 - I'm another ID.</div>
+    <p>Number 5 - I'm a class!</p>
+  </body>
+```
+
+* I define the CSS as:
+
+```css
+#green {
+    background-color: hsl(116, 54%, 64%);
+    font-size: 24px;
+    font-weight: bold;
+}
+```
+
+* I change the HTML such that the `p` elements have the same class:
+
+```html
+  <body>
+    <p class="odd">Number 1 - I'm a class!</p>
+    <div id="blue">Number 2 - I'm one ID.</div>
+    <p class="odd cooler">Number 3 - I'm a class, but cooler!</p>
+    <div id="green">Number 4 - I'm another ID.</div>
+    <p class="odd">Number 5 - I'm a class!</p>
+  </body>
+```
+
+* And update the CSS to: 
+
+```css
+.odd {
+    background-color: hsl(0, 100%, 80%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif
+}
+.cooler {
+    font-size: 24px;
+}
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+#green {
+    background-color: hsl(116, 54%, 64%);
+    font-size: 24px;
+    font-weight: bold;
+}
+```
+
+* The output is:
+
+![](2023-06-18-20-59-10.png)

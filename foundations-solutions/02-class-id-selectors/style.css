@@ -1,8 +1,16 @@
-p {
+.odd {
     background-color: hsl(0, 100%, 80%);
     font-family: Verdana, 'DejaVu Sans', sans-serif
 }
-
-.odd {
+.cooler {
     font-size: 24px;
+}
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+#green {
+    background-color: hsl(116, 54%, 64%);
+    font-size: 24px;
+    font-weight: bold;
 }
