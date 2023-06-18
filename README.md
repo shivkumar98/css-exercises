@@ -97,3 +97,46 @@ div {
 
 4) The fourth element: a light green background, font-size 24px and bold
 
+#### 🟦 Commentatry
+
+* The page looks like:
+
+![](2023-06-18-20-37-41.png)
+
+* I target all the `p` elements and make the background light pink:
+
+```css
+p {
+    background-color: hsl(0, 100%, 80%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif
+}
+```
+
+* I then added a class to the second `p` element:
+
+```html
+<!-- index.html --->
+  <body>
+    <p>Number 1 - I'm a class!</p>
+    <div>Number 2 - I'm one ID.</div>
+    <p class="odd">Number 3 - I'm a class, but cooler!</p>
+    <div>Number 4 - I'm another ID.</div>
+    <p>Number 5 - I'm a class!</p>
+  </body>
+```
+
+* I add to the CSS rules
+
+```css
+p {
+    background-color: hsl(0, 100%, 80%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif
+}
+.odd {
+    font-size: 24px;
+}
+```
+
+* This generates the following output:
+
+![](2023-06-18-20-42-36.png)
