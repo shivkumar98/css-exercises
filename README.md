@@ -254,3 +254,28 @@ p {
 2) Did you use the grouping selector for styles that both elements share?
 
 3) Did you make seperate rules for the styles unique to each element.
+
+### 🔴 Commentatry
+
+* I copy the exercise 3 folder into [foundations-solutions](/foundations-solutions/03-grouping-selectors/)
+
+* The `index.html` has the following HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Selectors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button>Click Me!</button>
+    <button>No, Click Me!</button>
+  </body>
+</html>
+```
+
+* The `styles.css` file is empty
