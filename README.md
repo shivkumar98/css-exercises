@@ -4,11 +4,11 @@
 
 * This is a fork created while I work through The Odin Project. I created this fork on 18/06/2023
 
-## 🧠 CSS Foundations
+# 🧠 CSS Foundations
 
-### 👨‍💻 Exercise 1: CSS Methods 👨‍💻 
+## 👨‍💻 Exercise 1: CSS Methods 👨‍💻 
 
-#### 📜 Instructions 📜
+### 📜 Instructions 📜
 
 * In this exercise, I'll practice adding CSS to HTML files using external, internal and inline CSS.
 
@@ -26,7 +26,7 @@
 
 ![](/foundations/01-css-methods/desired-outcome.png)
 
-#### 🟦 Commentatry
+### 🔴 Commentatry
 
 * I start working on exercise 1 [here](/foundations-solutions/01-css-methods/) 
 
@@ -81,9 +81,9 @@ div {
 
 ![](screenshots/2023-06-18-20-19-55.png)
 
-### 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
+## 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
 
-#### 📜 Instructions 📜
+### 📜 Instructions 📜
 
 * There are several elements in the [HTML file](/foundations-solutions/02-class-id-selectors/index.html), which I will add either class/id attributes as noted in outcome image below:
 
@@ -99,7 +99,7 @@ div {
 
 4) The fourth element: a light green background, font-size 24px and bold
 
-#### 🟦 Commentatry
+### 🔴 Commentatry
 
 * The page looks like:
 
