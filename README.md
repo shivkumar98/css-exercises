@@ -337,3 +337,43 @@ p {
 1) Did your properly chain class selectors for each rule?
 2) Does the `proportioned` image retain its original square proportions?
 3) Does the `distorted` image end up looking squished and distorted?
+
+### 🔴 Commentatry
+
+* The `index.html` file has the following elements:
+
+```html
+  <body>
+    <!-- Use the classes BELOW this line -->
+    <div>
+      <img class="avatar proportioned" src="./pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+      <img class="avatar distorted" src="./pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+    </div>
+    <!-- Use the classes ABOVE this line -->
+    <div>
+      <img class="original proportioned" src="./pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+      <img class="original distorted" src="./pexels-andrea-piacquadio-3777931.jpg" alt="Man with surprised expression">
+    </div>
+  </body>
+```
+
+* I define the CSS as:
+
+```css
+  .avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+```
+
+* Originally it was not working, as I had a space between the chains!!
+
+* This produces the following output:
+
+![](2023-06-22-20-13-15.png)
+
+* The solution was the same!
