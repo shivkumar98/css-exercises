@@ -311,3 +311,29 @@ p {
 ![](2023-06-22-19-51-06.png)
 
 * The solution given is same as mine! 
+
+<hr>
+
+## 👨‍💻 Exercise 4: Chaining Selectors 👨‍💻 
+
+### 📜 Instructions 📜
+
+* For this exercise, the HTML file is complete so I only need to update the CSS file.
+
+* There are two images which need to be styled. Each with two class names and one of them being shared. The goal is to chain the selectors for both elements, so that you have a unique style applied.
+
+* The properties which need to be added to the elements are:
+
+1) Make both the `avatar` and `proportioned` classes 300 pixels wide, then give it a height so it stays in proportion!.
+
+2) Make both the `avatar` and `distorted` classes 200px wide, the make its height twice as big as its width!
+
+* The desired outcome is:
+
+![](/foundations/04-chaining-selectors/desired-outcome.png)
+
+* Self Check:
+
+1) Did your properly chain class selectors for each rule?
+2) Does the `proportioned` image retain its original square proportions?
+3) Does the `distorted` image end up looking squished and distorted?
