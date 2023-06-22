@@ -279,3 +279,33 @@ p {
 ```
 
 * The `styles.css` file is empty
+
+* I add classes to each of the button elements:
+
+```html
+  <body>
+    <button class="click">Click Me!</button>
+    <button class="no">No, Click Me!</button>
+  </body>
+```
+
+* I then define the CSS as:
+
+```css
+.click, .no {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+.click {
+    background-color: black;
+    color: white;
+}
+.no {
+    background-color: rgb(255, 255, 6);
+    color: black;
+}
+```
+
+* This produces the following output:
+
+![](2023-06-22-19-51-06.png)
