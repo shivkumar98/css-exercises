@@ -81,6 +81,8 @@ div {
 
 ![](screenshots/2023-06-18-20-19-55.png)
 
+<hr>
+
 ## 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
 
 ### 📜 Instructions 📜
@@ -226,3 +228,29 @@ p {
 * The output is:
 
 ![](screenshots/2023-06-18-20-59-10.png)
+
+<hr>
+
+## 👨‍💻 Exercise 3: Grouping Selectors 👨‍💻 
+
+### 📜 Instructions 📜
+
+* We shall build off the previous exercise. Instead of having a single element with two different rules applie, we shall instead have 2 elements with unqiue class names.
+
+* The properties you need to add to each element are:
+
+1) The first element: a black background a white text.
+2) The second element: ae yellow background
+3) Both elements: a font size of 28px, and a font-list of `Helvetica`, `Times new Roman` with `sans-serif` as fallback
+
+* The desired outcome is:
+
+![](/foundations/03-grouping-selectors/desired-outcome.png)
+
+* Self-check:
+
+1) Does each element have a unqiue class name?
+
+2) Did you use the grouping selector for styles that both elements share?
+
+3) Did you make seperate rules for the styles unique to each element.
