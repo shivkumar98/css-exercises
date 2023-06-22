@@ -30,7 +30,7 @@
 
 * It starts off looking like:
 
-![](2023-06-18-20-07-57.png)
+![](screenshots/2023-06-18-20-07-57.png)
 
 * I create a CSS file ([styles.css](/foundations-solutions/01-css-methods/styles.css))
 
@@ -50,7 +50,7 @@ div {
 
 * This generates the following output:
 
-![](2023-06-18-20-16-12.png)
+![](screenshots/2023-06-18-20-16-12.png)
 
 
 * I then add an internal CSS rule for the `p` element:
@@ -67,7 +67,7 @@ div {
 
 * This generates the following output:
 
-![](2023-06-18-20-18-14.png)
+![](screenshots/2023-06-18-20-18-14.png)
 
 * I apply inline style to the button element:
 
@@ -77,7 +77,7 @@ div {
 
 * This generates the following output:
 
-![](2023-06-18-20-19-55.png)
+![](screenshots/2023-06-18-20-19-55.png)
 
 ### 👨‍💻 Exercise 2: Class and ID Selectors 👨‍💻 
 
@@ -101,7 +101,7 @@ div {
 
 * The page looks like:
 
-![](2023-06-18-20-37-41.png)
+![](screenshots/2023-06-18-20-37-41.png)
 
 * I target all the `p` elements and make the background light pink:
 
@@ -139,7 +139,7 @@ p {
 
 * This generates the following output:
 
-![](2023-06-18-20-42-36.png)
+![](screenshots/2023-06-18-20-42-36.png)
 
 * I add an ID to "Number 2":
 
@@ -164,7 +164,7 @@ p {
 
 * This generates the following output:
 
-![](2023-06-18-20-52-44.png)
+![](screenshots/2023-06-18-20-52-44.png)
 
 * I add an ID to "Number 4":
 
@@ -223,4 +223,4 @@ p {
 
 * The output is:
 
-![](2023-06-18-20-59-10.png)
+![](screenshots/2023-06-18-20-59-10.png)
