@@ -399,3 +399,59 @@ p {
 1) Do the elements with "This should be styled" have the correct applied styles?
 
 2) Do the elements with "This should be unstyled" have no styles applied?
+
+### 🔴 Commentatry
+
+* The files for this exercise have been copied [here](/foundations-solutions/05-descendant-combinator/)
+
+* The `index.html` is initialised as:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Combinator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
+  </body>
+</html>
+```
+
+* The `style.css` is empty
+
+* I update the CSS to:
+
+```css
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+```
+
+* This produces the following output:
+
+![](2023-06-23-12-10-42.png)
+
+* Looking at the solution, we could've specified the CSS rule as:
+
+```css
+.container .text {}
+div p {}
+div .text {}
+.container p {}
+```
