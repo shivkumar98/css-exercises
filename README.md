@@ -377,3 +377,25 @@ p {
 ![](2023-06-22-20-13-15.png)
 
 * The solution was the same!
+
+## 👨‍💻 Exercise 5: Descendant Combinator 👨‍💻 
+
+### 📜 Instructions 📜
+
+* The goal of this exercise if to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of the elements unstyled.
+
+* The HTML file is set up, only the CSS needs changing.
+
+* The properties you need to add are:
+
+1) Only `p` elements that are descendants of the `div` elements should have a yellow backgound and red font, a font-szie of 20px, a center allignment.
+
+* The desired outcome is:
+
+![](/foundations/05-descendant-combinator/desired-outcome.png)
+
+* Self Check:
+
+1) Do the elements with "This should be styled" have the correct applied styles?
+
+2) Do the elements with "This should be unstyled" have no styles applied?
