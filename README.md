@@ -455,3 +455,22 @@ div p {}
 div .text {}
 .container p {}
 ```
+
+## 👨‍💻 Exercise 6: Cascade Fix 👨‍💻 
+
+### 📜 Instructions 📜
+
+* I should not edit the HTML file or any of the actual styles in the CSS! I can edit the CSS file by adding, removing or editing selectors!
+
+* There a few elements that have sort of specificity ot rule order issue in the CSS. I must figure out the issue which is affecting the element, and how to fix it. 
+
+* This is the desired outcome:
+
+![](/foundations/06-cascade-fix/desired-outcome.png)
+
+
+* Self check:
+
+1) Did you make sure to not edit the HTML file
+
+2) If you added selectors to the CSS, do they target a valid HTML element?
