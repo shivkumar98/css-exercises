@@ -474,3 +474,140 @@ div .text {}
 1) Did you make sure to not edit the HTML file
 
 2) If you added selectors to the CSS, do they target a valid HTML element?
+
+### 🔴 Commentatry
+
+* I open up the HTML file, and it looks like:
+
+![](2023-06-25-17-51-38.png)
+
+* The HTML file is defined as:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix the Cascade</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+  </body>
+</html>
+```
+
+* The CSS file is defined as:
+
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.para {
+  font-size: 22px;
+}
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+```
+
+* I update the CSS rules to:
+
+```css
+/* OLD: .small-para {} */
+.para.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+/* OLD: .confirm {} */
+#confirm-button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+/* OLD: .child {} */
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+```
+
+* This produces the following output:
+
+![](2023-06-25-20-01-28.png)
+
+* The included solutions:
+
+1) We could've made the rule more specific using:
+
+```css
+p.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+```
+
+2) For the confirm button, we could've just specified the ID:
+
+```css
+#confirm-button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+```
+
+3) My solution was identical:
+
+```css
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+```
