@@ -308,7 +308,7 @@ p {
 
 * This produces the following output:
 
-![](2023-06-22-19-51-06.png)
+![](screenshots/2023-06-22-19-51-06.png)
 
 * The solution given is same as mine! 
 
@@ -374,7 +374,7 @@ p {
 
 * This produces the following output:
 
-![](2023-06-22-20-13-15.png)
+![](screenshots/2023-06-22-20-13-15.png)
 
 * The solution was the same!
 
@@ -445,7 +445,7 @@ div p {
 
 * This produces the following output:
 
-![](2023-06-23-12-10-42.png)
+![](screenshots/2023-06-23-12-10-42.png)
 
 * Looking at the solution, we could've specified the CSS rule as:
 
@@ -479,7 +479,7 @@ div .text {}
 
 * I open up the HTML file, and it looks like:
 
-![](2023-06-25-17-51-38.png)
+![](screenshots/2023-06-25-17-51-38.png)
 
 * The HTML file is defined as:
 
@@ -579,7 +579,7 @@ div.text {
 
 * This produces the following output:
 
-![](2023-06-25-20-01-28.png)
+![](screenshots/2023-06-25-20-01-28.png)
 
 * The included solutions:
 
